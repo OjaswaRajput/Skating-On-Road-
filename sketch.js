@@ -21,7 +21,7 @@ function setup(){
 createCanvas(600,600);
   Tower = createSprite(100,200);
   Tower.addImage(TowerImage);
-  Ghost = createSprite(100,200);
+  Ghost = createSprite(60,200);
   Ghost.addImage(GhostImage);
   left = createSprite(200,200);
   left.addImage(leftImage);
