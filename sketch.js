@@ -19,7 +19,7 @@ function preload(){
 
 function setup(){
 createCanvas(600,600);
-  Tower = createSprite(300,300);
+  Tower = createSprite(200,300);
   Tower.addImage(TowerImage);
   Ghost = createSprite(300,500);
   Ghost.addImage(GhostImage);
